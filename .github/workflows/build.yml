@@ -285,7 +285,7 @@ jobs:
           cd circle-stdlib
           git checkout db053a32c165c1b22423a47ed6cb5bddc72b51f2
           git submodule update --recursive
-          ./configure -r 4
+          ./configure -r 5
           make -j$(nproc)
           cd libs/circle/addon/vc4/sound/
           make -j$(nproc)
