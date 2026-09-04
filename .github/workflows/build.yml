@@ -304,6 +304,8 @@ jobs:
           make -j$(nproc)
           cd ../../vendor/circle-stdlib/libs/circle/boot/
           make -j$(nproc)
+          ls vendor/circle-stdlib/libs/circle/boot/
+
 
       - name: Pack
         run: |
